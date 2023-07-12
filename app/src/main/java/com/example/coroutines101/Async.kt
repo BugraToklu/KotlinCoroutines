@@ -6,7 +6,7 @@ import kotlinx.coroutines.delay
 import kotlin.system.measureTimeMillis
 
 class Async {
-    val TAG = "MainActivity"
+    /*val TAG = "MainActivity"
 
 
     GlobalScope.launch(Dispatchers.IO) {
@@ -27,5 +27,5 @@ suspend fun networkCall():String{
 suspend fun networkCall2():String{
     delay(3000L)
     return "answer 2"
-}
+}*/
 }
